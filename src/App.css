@@ -1,0 +1,173 @@
+
+body{
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20230930/pngtree-a-blue-sky-above-clouds-with-clouds-image_13313410.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.weather-details{
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  
+  text-align: center;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.weather-input{
+    margin-top: 50px;
+}
+.weather-input input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.weather-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.weather-img img{
+    width: 300px;
+    height: auto;
+}
+.weather-icon img{
+    width: 50px;
+    height: 50px;
+    
+}
+.weather-future{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.weather-dates{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    height: 120px;
+    width: 150px;
+    padding:20px;
+
+    text-align: center;
+    bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+.weather-message{
+    padding-top: 30px;
+}
+.weather-sky{
+    margin-bottom: 20px;
+}
+@media (max-width:991px){
+  .weather-details{
+    margin-left: 50px;
+   width: 100%;
+  }
+  .weather-input input{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .weather-dates{
+    width: 100px;
+    margin-left: 70px;
+    
+  }
+}
+@media (max-width:937px){
+    .weather-future{
+        
+     display: flex;
+     flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .weather-dates{
+        margin-top: 100px;
+        
+      
+        
+        width: 300px;
+    }
+}
+@media (max-width:865px){
+    .weather-dates{
+        width: 200px;
+    }
+
+}
+@media (max-width:666px) {
+    .weather-dates{
+        width: 150px;
+        
+    }
+    .weather-future{
+        margin-left: 10px;
+    }
+    
+}
+@media (max-width:566px){
+    .weather-dates{
+        width: 100px;
+    }
+}
+@media(max-width:466px){
+    .weather-dates{
+       margin-top: 70px;
+        width: 100%;
+    }
+}
+@media(max-width:440px){
+  .containers{
+    margin-left: 30px;
+  }
+}
+@media (max-width:356px){
+    .containers{
+        margin-left: 50px;
+    }
+}
+@media(max-width:338px){
+    .containers{
+        margin-left: 100px;
+    }
+}
+@media(max-width:290px){
+    .containers{
+        margin-left: 150px;
+    }
+}
